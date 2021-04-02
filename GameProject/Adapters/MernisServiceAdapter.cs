@@ -9,6 +9,7 @@ namespace GameProject.Adapters
 {
     public class MernisServiceAdapter : IGamerCheckService
     {
+    //new
         public bool CheckIfRealPerson(Gamer gamer)
         {
             KPSPublicSoapClient client = new KPSPublicSoapClient(KPSPublicSoapClient.EndpointConfiguration.KPSPublicSoap12);
